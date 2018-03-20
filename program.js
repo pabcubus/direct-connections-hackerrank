@@ -1,5 +1,5 @@
 const functions	= require('./functions');
 
-functions.ask('Give me the name of the file:', (answer) => {
+functions.ask('*****************************************\n*                                       *\n*   DIRECT CONNECTIONS (HACKERRANK)     *\n*                                       *\n*****************************************\n\nGive me the name of the file:', (answer) => {
 	functions.processFile(answer);
 });
