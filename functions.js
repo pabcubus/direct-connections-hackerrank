@@ -1,7 +1,7 @@
-const fs 		= require('fs');
+const fs 	= require('fs');
 const rl 	= require('readline');
 
-const ask           = (question, callback) => {
+const ask	= (question, callback) => {
 	var r = rl.createInterface({
 		input: process.stdin,
 		output: process.stdout
@@ -49,6 +49,6 @@ const processFile   = (fileName) => {
 }
 
 module.exports = {
-    'ask' : ask,
-    'processFile': processFile
+	'ask' : ask,
+	'processFile': processFile
 }
